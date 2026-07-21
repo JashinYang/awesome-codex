@@ -44,6 +44,8 @@ It extracts every URL from both READMEs and reports non-200 responses. Paste the
 
 The maintenance process lives in [OPERATIONS.md](OPERATIONS.md). The short version: `INBOX.md` accumulates candidates during the week; on Sunday they are filtered against the bar in [CONTRIBUTING.md](CONTRIBUTING.md), written into both READMEs, and recorded in [CHANGELOG.md](CHANGELOG.md).
 
+`INBOX.md` is gitignored — it is the maintainer's local scratchpad and will not exist in a fresh clone. If it is missing, that is expected, not an error. Never commit it, and never reconstruct it from the changelog.
+
 When asked to "do the weekly update," follow that SOP rather than improvising.
 
 ## What not to do

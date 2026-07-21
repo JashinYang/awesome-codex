@@ -35,7 +35,7 @@
 
 | 时段 | 动作 | 耗时 |
 |---|---|---|
-| 周一~周六 | 学到/用到东西随手记进 `INBOX.md` | 每次 1~2 分钟 |
+| 周一~周六 | 学到/用到东西随手记进 `INBOX.md`（本地文件，不入库） | 每次 1~2 分钟 |
 | 周日上半场 | 清 INBOX，筛出 3~7 条真值得收的 | 20 分钟 |
 | 周日下半场 | 写进 README + README.zh-CN + CHANGELOG | 40 分钟（双语是代价） |
 | 周日收尾 | 跑链接校验、commit、push | 15 分钟 |
@@ -67,7 +67,7 @@ curl -s "https://api.github.com/search/repositories?q=codex+in:name,description,
 ## 4. 周日 SOP
 
 ```
-1. 打开 INBOX.md 逐条过：这条我真用过吗？对读者有用吗？
+1. 打开 INBOX.md（本地暂存，已 gitignore，换机器需自己带）逐条过：这条我真用过吗？对读者有用吗？
    → 是：下一步；否：删掉，不犹豫。
 2. 对照 CONTRIBUTING.md 的四条标准过一遍。
 3. 归类到 README 对应分区，同步写 README.zh-CN。
