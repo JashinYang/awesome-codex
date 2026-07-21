@@ -10,7 +10,7 @@ Format: additions grouped by section, then removals/fixes, then one line on what
 
 ### Added
 
-Initial list. 66 entries across 16 sections, all 64 unique URLs verified live on 2026-07-21.
+Initial list. 65 entries across 16 sections, all 63 unique URLs verified live on 2026-07-21.
 
 - **Official** — `openai/codex`, docs overview, changelog, CLI reference, security & approvals, prompting guide, `openai/skills`.
 - **AGENTS.md** — official docs, `agents.md` spec, the Codex team's own AGENTS.md, `awesome-agents-md`, `agent-rules-books`.
@@ -23,6 +23,10 @@ Initial list. 66 entries across 16 sections, all 64 unique URLs verified live on
 - **Tools** — `graphify`, `codegraph`, `planning-with-files`, `open-design`, `design.md`.
 - **Chinese** — `ai-guide`, `cockpit-tools`, `claude-relay-service`.
 - **Related lists** — the four competing Codex lists, listed honestly.
+
+### Removed
+
+- **Community** — `r/OpenAI`. Not a Codex-specific venue; it was included to pad the section, which is exactly what rule 1 in [CONTRIBUTING.md](CONTRIBUTING.md) exists to prevent. Removed the same day it shipped.
 
 ### Notes
 

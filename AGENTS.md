@@ -26,7 +26,9 @@ This repo is a curated list. There is no build, no tests, no source code — the
 
 Section order in `README.md` is the source of truth; `README.zh-CN.md` mirrors it. The table of contents at the top must match the actual headings — anchors are generated from heading text, so update both together.
 
-Do not add a new section for a single entry. If a section would have fewer than three entries, put them in the closest existing section instead.
+Do not create a new section unless you have at least three entries for it. Fewer than that, put them in the closest existing section.
+
+This constraint governs **adding** sections, not keeping them. An existing section that shrinks below three entries stays — removing a bad entry must never create pressure to keep it, or to pad the section with a worse one. Delete a section only when it has no entries left, or when the topic itself has stopped mattering.
 
 ## Verifying changes
 

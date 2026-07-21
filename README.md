@@ -152,7 +152,6 @@
 
 - [openai/codex Discussions](https://github.com/openai/codex/discussions) — The primary community venue. `(Official)`
 - [openai/codex Issues](https://github.com/openai/codex/issues) — Bug reports and feature requests; search before filing. `(Official)`
-- [r/OpenAI](https://www.reddit.com/r/OpenAI/) — General discussion, including Codex workflows.
 
 ## Contributing
 

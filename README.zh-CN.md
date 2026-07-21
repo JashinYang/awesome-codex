@@ -152,7 +152,6 @@
 
 - [openai/codex Discussions](https://github.com/openai/codex/discussions) — 主要社区阵地。 `(Official)`
 - [openai/codex Issues](https://github.com/openai/codex/issues) — Bug 与需求，提之前先搜。 `(Official)`
-- [r/OpenAI](https://www.reddit.com/r/OpenAI/) — 综合讨论，包含 Codex 工作流。
 
 ## 参与贡献
 
