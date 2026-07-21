@@ -1,0 +1,24 @@
+name: Link check
+
+on:
+  push:
+    paths:
+      - 'README.md'
+      - 'README.zh-CN.md'
+      - 'scripts/check-links.sh'
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'README.zh-CN.md'
+  schedule:
+    # Mondays 01:00 UTC — a fresh report waiting at the start of each week.
+    - cron: '0 1 * * 1'
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        run: ./scripts/check-links.sh
