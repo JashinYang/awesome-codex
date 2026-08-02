@@ -17,6 +17,7 @@
 - [AGENTS.md](#agentsmd)
 - [Configuration](#configuration)
 - [Skills](#skills)
+- [Plugins](#plugins)
 - [MCP Servers](#mcp-servers)
 - [Hooks & Automation](#hooks--automation)
 - [Codex SDK & Headless](#codex-sdk--headless)
@@ -63,6 +64,7 @@
 ## Configuration
 
 - [Config File Reference](https://learn.chatgpt.com/docs/config-file/config-basic) — `~/.codex/config.toml`: models, approval policy, sandbox, MCP servers, profiles. `(Official)`
+- [Codex Models](https://learn.chatgpt.com/docs/models) — Choose models and reasoning effort in interactive and non-interactive Codex sessions. `(Official)`
 - [Codex Rules: Global Instructions, AGENTS.md, and the Mac App](https://kirill-markin.com/articles/codex-rules-for-ai/) — Walkthrough of how the instruction layers actually resolve in practice.
 - [farion1231/cc-switch](https://github.com/farion1231/cc-switch) — Cross-platform desktop app for switching provider/account configs across Codex, Claude Code, and others.
 
@@ -76,6 +78,14 @@
 - [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) — Large cross-harness skill collection; Codex-compatible subset is substantial.
 - [Nutlope/hallmark](https://github.com/Nutlope/hallmark) — Design skill that pushes generated UI away from generic AI-template output. Works with Codex.
 - [microsoft/skills](https://github.com/microsoft/skills) — Skills, MCP servers, and AGENTS.md files for grounding coding agents in Microsoft SDKs.
+
+## Plugins
+
+> Plugins package reusable Codex capabilities for installation and sharing.
+
+- [Plugins](https://learn.chatgpt.com/docs/plugins) — Browse, install, and use reusable capability bundles in the Codex CLI and supported ChatGPT surfaces. `(Official)`
+- [Build Plugins](https://learn.chatgpt.com/docs/build-plugins) — Package skills and MCP servers into installable bundles, then test them through a local marketplace. `(Official)`
+- [Skills & Plugins](https://learn.chatgpt.com/docs/skills-and-plugins) — Decide when a repeatable workflow should remain a skill and when it should become a shareable plugin. `(Official)`
 
 ## MCP Servers
 
@@ -92,13 +102,14 @@
 ## Hooks & Automation
 
 - [Hooks](https://learn.chatgpt.com/docs/hooks) — Run commands on Codex lifecycle events. `(Official)`
+- [openai/codex-action](https://github.com/openai/codex-action) — Run `codex exec` in GitHub Actions with explicit API credentials and permission profiles. `(Official)`
 - [caliber-ai-org/ai-setup](https://github.com/caliber-ai-org/ai-setup) — Syncs agent skills, MCP servers, and config across machines with one command.
 - [mksglu/context-mode](https://github.com/mksglu/context-mode) — Sandboxes tool output to cut context usage; supports Codex.
 
 ## Codex SDK & Headless
 
 - [Codex SDK](https://learn.chatgpt.com/docs/codex-sdk) — Embed Codex in your own applications and pipelines. `(Official)`
-- [openai/codex — `codex exec`](https://github.com/openai/codex) — Non-interactive mode, the building block for CI and scripted runs. `(Official)`
+- [`codex exec` — Non-interactive Mode](https://learn.chatgpt.com/docs/non-interactive-mode) — Run Codex in scripts and CI with pipe-friendly output and explicit sandbox settings. `(Official)`
 
 ## IDE & Editor Integrations
 
@@ -112,6 +123,7 @@
 
 ## Multi-Agent & Orchestration
 
+- [Subagents](https://learn.chatgpt.com/docs/agent-configuration/subagents) — Run independent work in parallel and define specialized agents with task-specific models and instructions. `(Official)`
 - [wshobson/agents](https://github.com/wshobson/agents) — Multi-harness agentic plugin marketplace covering Codex CLI, Claude Code, Cursor, and more.
 - [AgentWrapper/agent-orchestrator](https://github.com/AgentWrapper/agent-orchestrator) — Agent IDE for managing fleets of coding agents.
 - [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) — Opinionated harness (`omo` / `lazycodex`) built for long, complex agent runs.

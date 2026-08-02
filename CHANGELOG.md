@@ -6,6 +6,25 @@ Format: additions grouped by section, then removals/fixes, then one line on what
 
 ---
 
+## 2026-W31 (2026-08-02)
+
+### Added
+
+- **Plugins** — Official guides for discovering plugins, building and testing installable bundles, and deciding when a workflow should be a skill or a plugin.
+- **Configuration** — Official model and reasoning-effort guide for interactive and non-interactive Codex sessions.
+- **Hooks & Automation** — `openai/codex-action` for running `codex exec` in GitHub Actions with explicit credentials and permission profiles.
+- **Multi-Agent & Orchestration** — Official subagents guide for parallel work and custom agent definitions.
+
+### Fixed
+
+- **Codex SDK & Headless** — Replaced the generic `openai/codex` link for `codex exec` with the dedicated non-interactive-mode documentation.
+
+### Notes
+
+- Codex 0.146.0 added plugin manifests, workspace plugin publishing, more marketplaces, thread forks, and remote Code Mode, making plugins and parallel workflows the highest-value theme for this update.
+- For ChatGPT-authenticated Codex sessions, GPT-5.4 and GPT-5.4 mini are scheduled to retire on 2026-08-31; OpenAI recommends GPT-5.6 Terra and GPT-5.6 Luna respectively. API-key-authenticated sessions are not affected by this retirement notice.
+- Community candidates were not added because they have not yet passed the repository's hands-on-use bar.
+
 ## 2026-W30 (2026-07-21)
 
 ### Added

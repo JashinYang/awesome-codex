@@ -17,6 +17,7 @@
 - [AGENTS.md](#agentsmd)
 - [配置](#配置)
 - [Skills](#skills)
+- [Plugins](#plugins)
 - [MCP 服务器](#mcp-服务器)
 - [Hooks 与自动化](#hooks-与自动化)
 - [Codex SDK 与无头模式](#codex-sdk-与无头模式)
@@ -63,6 +64,7 @@
 ## 配置
 
 - [配置文件参考](https://learn.chatgpt.com/docs/config-file/config-basic) — `~/.codex/config.toml`：模型、审批策略、沙箱、MCP 服务器、profile。 `(Official)`
+- [Codex 模型](https://learn.chatgpt.com/docs/models) — 在 Codex 的交互与非交互模式中选择模型和推理强度。 `(Official)`
 - [Codex Rules: Global Instructions, AGENTS.md, and Mac App](https://kirill-markin.com/articles/codex-rules-for-ai/) — 实战角度讲清各层指令的生效顺序。
 - [farion1231/cc-switch](https://github.com/farion1231/cc-switch) — 跨平台桌面端配置/账号切换工具，支持 Codex、Claude Code 等。
 
@@ -76,6 +78,14 @@
 - [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) — 跨 harness 的大型 Skill 合集，其中兼容 Codex 的部分相当可观。
 - [Nutlope/hallmark](https://github.com/Nutlope/hallmark) — 让生成的 UI 摆脱"AI 模板味"的设计 Skill，支持 Codex。
 - [microsoft/skills](https://github.com/microsoft/skills) — 微软给自家 SDK 提供的 Skills、MCP 服务器与 AGENTS.md。
+
+## Plugins
+
+> Plugins 把可复用的 Codex 能力打包，供安装和分享。
+
+- [Plugins](https://learn.chatgpt.com/docs/plugins) — 在 Codex CLI 和支持的 ChatGPT 界面中浏览、安装、使用可复用能力包。 `(Official)`
+- [构建 Plugins](https://learn.chatgpt.com/docs/build-plugins) — 把 Skills 和 MCP 服务器打包为可安装的能力，并通过本地 marketplace 测试。 `(Official)`
+- [Skills 与 Plugins](https://learn.chatgpt.com/docs/skills-and-plugins) — 判断一个重复工作流应该保留为 Skill，还是做成可分享的 Plugin。 `(Official)`
 
 ## MCP 服务器
 
@@ -92,13 +102,14 @@
 ## Hooks 与自动化
 
 - [Hooks](https://learn.chatgpt.com/docs/hooks) — 在 Codex 生命周期事件上挂命令。 `(Official)`
+- [openai/codex-action](https://github.com/openai/codex-action) — 使用明确的 API 凭据和权限 profile，在 GitHub Actions 中运行 `codex exec`。 `(Official)`
 - [caliber-ai-org/ai-setup](https://github.com/caliber-ai-org/ai-setup) — 一条命令同步多机之间的 Skills、MCP 与配置。
 - [mksglu/context-mode](https://github.com/mksglu/context-mode) — 沙箱化工具输出以压缩上下文占用，支持 Codex。
 
 ## Codex SDK 与无头模式
 
 - [Codex SDK](https://learn.chatgpt.com/docs/codex-sdk) — 把 Codex 嵌进自己的应用和流水线。 `(Official)`
-- [`codex exec`](https://github.com/openai/codex) — 非交互模式，是 CI 与脚本化调用的基础。 `(Official)`
+- [`codex exec` 非交互模式](https://learn.chatgpt.com/docs/non-interactive-mode) — 在脚本和 CI 中运行 Codex，支持管道友好的输出和显式沙箱设置。 `(Official)`
 
 ## IDE 与编辑器集成
 
@@ -112,6 +123,7 @@
 
 ## 多 Agent 与编排
 
+- [Subagents](https://learn.chatgpt.com/docs/agent-configuration/subagents) — 并行执行相互独立的工作，并用任务专属模型和指令定义特化 Agent。 `(Official)`
 - [wshobson/agents](https://github.com/wshobson/agents) — 跨 harness 的 agent 插件市场，覆盖 Codex CLI、Claude Code、Cursor 等。
 - [AgentWrapper/agent-orchestrator](https://github.com/AgentWrapper/agent-orchestrator) — 管理 agent 集群的 Agent IDE。
 - [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) — 为长时间复杂任务设计的 harness（`omo` / `lazycodex`）。
