@@ -6,6 +6,29 @@ Format: additions grouped by section, then removals/fixes, then one line on what
 
 ---
 
+## 2026-W34 (2026-08-17)
+
+### Added
+
+- **Configuration** — Official CLI customization guide.
+- **IDE & Editor Integrations** — Official integrated terminal guide.
+- **Cloud & Code Review** — Official GitHub pull-request review guide.
+- **Multi-Agent & Orchestration** — Official local-environment and long-running-work guides.
+
+### Notes
+
+- Codex CLI 0.149.0 added the interactive `codex agents` dashboard, `codex queue`, improved `codex doctor` diagnostics, and exact SDK configuration overrides; these remain release-note coverage rather than separate list entries.
+
+## 2026-W33 (2026-08-10)
+
+### Added
+
+- **Getting Started** — Official Linux desktop preview and agent-import guides announced during this week’s Codex updates.
+
+### Notes
+
+- The official changelog also introduced Daybreak Blue and Daybreak Red for approved defensive-security work; it was not added as a standalone resource because it is broader than the current Codex list scope.
+
 ## 2026-W32 (2026-08-09)
 
 ### Added

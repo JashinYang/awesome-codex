@@ -48,6 +48,8 @@
 - [Quickstart](https://learn.chatgpt.com/docs/quickstart) — Install, sign in, and run the first task. `(Official)`
 - [openai/codex — Releases](https://github.com/openai/codex/releases) — Prebuilt binaries and per-release notes. `(Official)`
 - [openai/codex — Discussions](https://github.com/openai/codex/discussions) — Where the maintainers answer questions and the community posts ecosystem projects. `(Official)`
+- [ChatGPT desktop app for Linux](https://learn.chatgpt.com/docs/linux/linux-app) — Install the preview desktop app on supported Ubuntu, Debian, and Fedora distributions to work with local files and Codex. `(Official)`
+- [Import from another agent](https://learn.chatgpt.com/docs/import) — Bring supported setup, skills, plugins, projects, and recent work from Claude Code or Cursor into ChatGPT or Codex. `(Official)`
 
 ## AGENTS.md
 
@@ -66,6 +68,7 @@
 - [Config File Reference](https://learn.chatgpt.com/docs/config-file/config-basic) — `~/.codex/config.toml`: models, approval policy, sandbox, MCP servers, profiles. `(Official)`
 - [Codex Models](https://learn.chatgpt.com/docs/models) — Choose models and reasoning effort in interactive and non-interactive Codex sessions. `(Official)`
 - [Auto-review](https://learn.chatgpt.com/docs/sandboxing/auto-review) — Routes sandbox-boundary approval requests to a separate reviewer agent without expanding the active sandbox or permission policy. `(Official)`
+- [CLI Customization](https://learn.chatgpt.com/docs/cli-customization) — Customize the Codex terminal interface, editor, completions, and keyboard shortcuts. `(Official)`
 - [Codex Rules: Global Instructions, AGENTS.md, and the Mac App](https://kirill-markin.com/articles/codex-rules-for-ai/) — Walkthrough of how the instruction layers actually resolve in practice.
 - [farion1231/cc-switch](https://github.com/farion1231/cc-switch) — Cross-platform desktop app for switching provider/account configs across Codex, Claude Code, and others.
 
@@ -118,16 +121,20 @@
 
 - [Codex IDE Extension](https://learn.chatgpt.com/docs/codex/ide) — Official docs for the editor integration. `(Official)`
 - [ChatGPT — VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt) — The official extension for VS Code, Cursor, and Windsurf. `(Official)`
+- [Integrated Terminal](https://learn.chatgpt.com/docs/integrated-terminal) — Run commands and inspect their output without leaving the Codex conversation. `(Official)`
 
 ## Cloud & Code Review
 
 - [Codex Cloud](https://learn.chatgpt.com/docs/cloud) — Delegate tasks to cloud containers that open PRs. `(Official)`
 - [Code Review](https://learn.chatgpt.com/docs/code-review) — Codex reviewing pull requests. `(Official)`
+- [Review GitHub pull requests with Codex](https://learn.chatgpt.com/docs/third-party/github) — Set up Code Review for GitHub, request reviews with `@codex review`, and write custom review rules in `AGENTS.md`. `(Official)`
 
 ## Multi-Agent & Orchestration
 
 - [Subagents](https://learn.chatgpt.com/docs/agent-configuration/subagents) — Run independent work in parallel and define specialized agents with task-specific models and instructions. `(Official)`
 - [Git Worktrees](https://learn.chatgpt.com/docs/environments/git-worktrees) — Isolates parallel Codex desktop chats in managed Git worktrees so they can work in the same repository without interfering with each other. `(Official)`
+- [Local Environments](https://learn.chatgpt.com/docs/environments/local-environment) — Configure common actions and setup scripts for Codex worktrees. `(Official)`
+- [Long-running Work](https://learn.chatgpt.com/docs/long-running-work) — Keep multi-step work focused with clear outcomes and completion criteria. `(Official)`
 - [wshobson/agents](https://github.com/wshobson/agents) — Multi-harness agentic plugin marketplace covering Codex CLI, Claude Code, Cursor, and more.
 - [AgentWrapper/agent-orchestrator](https://github.com/AgentWrapper/agent-orchestrator) — Agent IDE for managing fleets of coding agents.
 - [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) — Opinionated harness (`omo` / `lazycodex`) built for long, complex agent runs.

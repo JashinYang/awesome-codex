@@ -48,6 +48,8 @@
 - [Quickstart](https://learn.chatgpt.com/docs/quickstart) — 安装、登录、跑通第一个任务。 `(Official)`
 - [openai/codex Releases](https://github.com/openai/codex/releases) — 预编译二进制与逐版本更新说明。 `(Official)`
 - [openai/codex Discussions](https://github.com/openai/codex/discussions) — 维护者答疑、社区项目发布的地方。 `(Official)`
+- [Linux 版 ChatGPT 桌面应用](https://learn.chatgpt.com/docs/linux/linux-app) — 在支持的 Ubuntu、Debian 和 Fedora 发行版上安装预览版桌面应用，处理本地文件并使用 Codex。 `(Official)`
+- [从其他 Agent 导入](https://learn.chatgpt.com/docs/import) — 将 Claude Code 或 Cursor 中受支持的配置、Skills、Plugins、项目和近期工作导入 ChatGPT 或 Codex。 `(Official)`
 
 ## AGENTS.md
 
@@ -66,6 +68,7 @@
 - [配置文件参考](https://learn.chatgpt.com/docs/config-file/config-basic) — `~/.codex/config.toml`：模型、审批策略、沙箱、MCP 服务器、profile。 `(Official)`
 - [Codex 模型](https://learn.chatgpt.com/docs/models) — 在 Codex 的交互与非交互模式中选择模型和推理强度。 `(Official)`
 - [Auto-review](https://learn.chatgpt.com/docs/sandboxing/auto-review) — 在不扩大现有沙箱或权限策略的前提下，将越过沙箱边界的审批请求交给独立 reviewer agent。 `(Official)`
+- [CLI 自定义](https://learn.chatgpt.com/docs/cli-customization) — 自定义 Codex 终端界面、编辑器、补全和键盘快捷键。 `(Official)`
 - [Codex Rules: Global Instructions, AGENTS.md, and Mac App](https://kirill-markin.com/articles/codex-rules-for-ai/) — 实战角度讲清各层指令的生效顺序。
 - [farion1231/cc-switch](https://github.com/farion1231/cc-switch) — 跨平台桌面端配置/账号切换工具，支持 Codex、Claude Code 等。
 
@@ -118,16 +121,20 @@
 
 - [Codex IDE 扩展](https://learn.chatgpt.com/docs/codex/ide) — 编辑器集成官方文档。 `(Official)`
 - [ChatGPT — VS Code 插件市场](https://marketplace.visualstudio.com/items?itemName=openai.chatgpt) — VS Code / Cursor / Windsurf 通用的官方扩展。 `(Official)`
+- [集成终端](https://learn.chatgpt.com/docs/integrated-terminal) — 无需离开 Codex 对话即可运行命令并查看输出。 `(Official)`
 
 ## 云端与代码评审
 
 - [Codex Cloud](https://learn.chatgpt.com/docs/cloud) — 把任务丢给云端容器执行并直接开 PR。 `(Official)`
 - [Code Review](https://learn.chatgpt.com/docs/code-review) — 用 Codex 评审 PR。 `(Official)`
+- [用 Codex 评审 GitHub Pull Request](https://learn.chatgpt.com/docs/third-party/github) — 配置 GitHub Code Review，用 `@codex review` 发起评审，并在 `AGENTS.md` 中编写自定义评审规则。 `(Official)`
 
 ## 多 Agent 与编排
 
 - [Subagents](https://learn.chatgpt.com/docs/agent-configuration/subagents) — 并行执行相互独立的工作，并用任务专属模型和指令定义特化 Agent。 `(Official)`
 - [Git Worktrees](https://learn.chatgpt.com/docs/environments/git-worktrees) — 在托管的 Git worktree 中隔离并行的 Codex 桌面端会话，使它们能在同一仓库内工作而不互相干扰。 `(Official)`
+- [本地环境](https://learn.chatgpt.com/docs/environments/local-environment) — 为 Codex worktree 配置常用操作和初始化脚本。 `(Official)`
+- [长时间运行的工作](https://learn.chatgpt.com/docs/long-running-work) — 用清晰的结果和完成标准让多步骤工作保持聚焦。 `(Official)`
 - [wshobson/agents](https://github.com/wshobson/agents) — 跨 harness 的 agent 插件市场，覆盖 Codex CLI、Claude Code、Cursor 等。
 - [AgentWrapper/agent-orchestrator](https://github.com/AgentWrapper/agent-orchestrator) — 管理 agent 集群的 Agent IDE。
 - [code-yeongyu/oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) — 为长时间复杂任务设计的 harness（`omo` / `lazycodex`）。
