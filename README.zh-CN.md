@@ -131,6 +131,8 @@
 
 ## 多 Agent 与编排
 
+- [codex-multi-model-orchestrator](https://github.com/JashinYang/codex-multi-model-orchestrator) — 用于在直接执行、Sol 规划和独立批处理之间进行选择，并明确任务所有权和最终验证的 Codex Skill。`(Chinese)`
+
 - [Subagents](https://learn.chatgpt.com/docs/agent-configuration/subagents) — 并行执行相互独立的工作，并用任务专属模型和指令定义特化 Agent。 `(Official)`
 - [Git Worktrees](https://learn.chatgpt.com/docs/environments/git-worktrees) — 在托管的 Git worktree 中隔离并行的 Codex 桌面端会话，使它们能在同一仓库内工作而不互相干扰。 `(Official)`
 - [本地环境](https://learn.chatgpt.com/docs/environments/local-environment) — 为 Codex worktree 配置常用操作和初始化脚本。 `(Official)`
