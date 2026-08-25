@@ -131,6 +131,8 @@
 
 ## Multi-Agent & Orchestration
 
+- [codex-multi-model-orchestrator](https://github.com/JashinYang/codex-multi-model-orchestrator) — A Codex Skill for choosing direct execution, Sol-led planning, or independent batches with explicit ownership and final validation.
+
 - [Subagents](https://learn.chatgpt.com/docs/agent-configuration/subagents) — Run independent work in parallel and define specialized agents with task-specific models and instructions. `(Official)`
 - [Git Worktrees](https://learn.chatgpt.com/docs/environments/git-worktrees) — Isolates parallel Codex desktop chats in managed Git worktrees so they can work in the same repository without interfering with each other. `(Official)`
 - [Local Environments](https://learn.chatgpt.com/docs/environments/local-environment) — Configure common actions and setup scripts for Codex worktrees. `(Official)`
